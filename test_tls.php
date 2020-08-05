@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 // Code from Márk Sági-Kazár (@sagikazarmark on GitHub) in:
@@ -20,4 +21,4 @@ $response = $client->request(
     ]
 );
 
-die(json_decode($response->getBody())->tls_version);
+die(json_decode($response->getBody())->tls_version . "\n");
