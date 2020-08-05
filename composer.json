@@ -1,0 +1,13 @@
+{
+    "name": "middlebury/test_tls",
+    "description": "TLS testing scripts",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Adam Franco",
+            "email": "afranco@middlebury.edu"
+        }
+    ]
+}
