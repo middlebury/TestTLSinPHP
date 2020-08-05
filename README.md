@@ -34,3 +34,11 @@ line to determine the protocol and ciphers used. Example:
 ```
 ./test_url_with_TLSv1_2.php https://www.middlebury.edu/
 ```
+
+There is also a `test_url_with_curl_defaults.php` script that does the same requests
+without setting the `CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2` to use the
+default connection negotiation. Example:
+
+```
+./test_url_with_curl_defaults.php https://www.middlebury.edu/
+```
